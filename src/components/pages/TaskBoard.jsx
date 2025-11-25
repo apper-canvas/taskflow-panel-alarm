@@ -144,7 +144,7 @@ const TaskBoard = () => {
         <Empty onAddTask={() => setShowAddForm(true)} />
       ) : (
         <TaskList 
-          tasks={sortedTasks}
+tasks={sortedTasks}
           onUpdateTask={handleUpdateTask}
           onToggleComplete={handleToggleComplete}
           onDeleteTask={handleDeleteTask}

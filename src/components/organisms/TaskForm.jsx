@@ -133,15 +133,15 @@ const TaskForm = ({ task = null, onSubmit, onCancel }) => {
             <label className="block text-sm font-medium text-gray-700 mb-2">
               Due Date *
             </label>
-            <Input
+<Input
               type="date"
-              value={formData.dueDate}
-              onChange={(e) => handleChange("dueDate", e.target.value)}
-              error={errors.dueDate}
+              value={formData.due_date_c}
+              onChange={(e) => handleChange("due_date_c", e.target.value)}
+              error={errors.due_date_c}
               className="w-full"
             />
-            {errors.dueDate && (
-              <p className="mt-1 text-sm text-red-600">{errors.dueDate}</p>
+            {errors.due_date_c && (
+              <p className="mt-1 text-sm text-red-600">{errors.due_date_c}</p>
             )}
           </div>
         </div>

@@ -131,10 +131,10 @@ const TaskCard = ({ task, onUpdate, onToggleComplete, onDelete }) => {
               </span>
             </div>
 
-            {task.completed && task.completedAt && (
+{task.completed_c && task.completed_at_c && (
               <div className="text-gray-400">
                 <ApperIcon name="CheckCircle" size={14} className="mr-1 inline" />
-                Completed {format(new Date(task.completedAt), "MMM d")}
+                Completed {format(new Date(task.completed_at_c), "MMM d")}
               </div>
             )}
           </div>
