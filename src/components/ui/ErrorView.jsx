@@ -26,7 +26,7 @@ const ErrorView = ({ message = "Something went wrong", onRetry }) => {
         <div className="mt-8 space-y-3">
           <Button
             onClick={onRetry}
-            className="bg-gradient-to-r from-primary to-secondary text-white px-8 py-3 text-base"
+className="bg-gradient-to-r from-primary to-secondary text-white px-8 py-3 text-base"
           >
             <ApperIcon name="RefreshCw" size={18} className="mr-2" />
             Try Again

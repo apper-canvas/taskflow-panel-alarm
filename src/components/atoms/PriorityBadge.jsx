@@ -5,7 +5,7 @@ const PriorityBadge = ({ priority, className }) => {
   const priorityConfig = {
     high: {
       label: "High",
-      className: "priority-high bg-primary text-white"
+className: "priority-high bg-primary text-white"
     },
     medium: {
       label: "Medium", 
